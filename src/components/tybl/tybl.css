@@ -1,0 +1,13 @@
+.tyblpage{
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.tyblcontainer{
+    background-color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.textdown{
+    font-size: 18px;
+}
