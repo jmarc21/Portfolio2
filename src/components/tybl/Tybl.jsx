@@ -23,7 +23,7 @@ export default class Tybl extends Component {
     componentDidMount(){
         setTimeout(function() {
             this.forceUpdate()
-        }.bind(this), 50);
+        }.bind(this), 100);
         window.scrollTo(0,0)
     }
     render() {
