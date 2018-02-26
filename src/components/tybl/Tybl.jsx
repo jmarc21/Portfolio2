@@ -44,7 +44,7 @@ export default class Tybl extends Component {
                         <p className="abouttext">
                             <div className='aboutProject'>About</div>
                             <div className="divider down"></div>
-                            Tybl is a Fullstack Web Application. A travel planning app that allows users to share and plan trips with other users in the app.  <br />
+                            Tybl is a Fullstack Web Application. A travel planning app that allows users to share and plan trips with other users.  <br />
                             <a href="https://github.com/jmarc21/travel-planner" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" className="social" />  GitHub Repo</a>
                             <a href="https://youtu.be/1pkumOKu8VY" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink">  Video Tutorial</a>
                             <a href="http://travel-project.justin-demarco.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink">  Live Site</a>
