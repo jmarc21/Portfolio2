@@ -20,16 +20,16 @@ export default class Tybl extends Component {
             createatrip: Createatrip
         }
     }
-    componentDidMount(){
-        setTimeout(function() {
+    componentDidMount() {
+        setTimeout(function () {
             this.forceUpdate()
         }.bind(this), 100);
-        window.scrollTo(0,0)
+        window.scrollTo(0, 0)
     }
     render() {
         return (
             <div className="tyblpage">
-                <div className="tyblcontainer fadein">
+                <div className="container fadein">
                     <Header />
                     <div className="CAPtitleContainer">
                         <h1 className="CAPtitle">Tybl</h1>
@@ -51,23 +51,20 @@ export default class Tybl extends Component {
                         </p>
                     </div>
                     <div className="CAPaboutContainer marginSpace">
-                    <ul className="smalltext textdown">
-                        <div className="aboutProject">Tech used</div>
-                        <div className="divider down"></div>
-                        <li> Built with React, Redux, Node, Express, PostgresQL, Auth0. </li>
-                        <li> Used Google Maps, Google Places, Google Place Details and Google Photos API to get information on hotels, attractions, transportation, restaurants, and shopping destinations. </li>
-                        <li> Used AuthO to login and automatically create user profiles.  </li>
-                    </ul>
-                    <Carousel style={{height: '300px', width: '600px'}} >
-                        <img src={this.state.login}/>
-                        <img src={this.state.createatrip}/>
-                        <img src={this.state.profile}/>
-                        <img src={this.state.feed}/>
-                    </Carousel>
-                </div>
-
-
-
+                        <ul className="smalltext textdown">
+                            <div className="aboutProject">Tech used</div>
+                            <div className="divider down"></div>
+                            <li> Built with React, Redux, Node, Express, PostgresQL, Auth0. </li>
+                            <li> Used Google Maps, Google Places, Google Place Details and Google Photos API to get information on hotels, attractions, transportation, restaurants, and shopping destinations. </li>
+                            <li> Used AuthO to login and automatically create user profiles.  </li>
+                        </ul>
+                        <Carousel style={{ height: '300px', width: '600px' }} >
+                            <img src={this.state.login} />
+                            <img src={this.state.createatrip} />
+                            <img src={this.state.profile} />
+                            <img src={this.state.feed} />
+                        </Carousel>
+                    </div>
                 </div>
             </div>
         )

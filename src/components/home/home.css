@@ -7,6 +7,9 @@
     --gray: #C0BCB5;
     --dark-red: #C03221;
 }
+.color{
+    background-color: rgb(241, 241, 241);
+}
 .greeting-container{
     height: 100vh;
     width: 100vw;
@@ -361,6 +364,7 @@
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--gray)
 }
 .bodyEmail{
     font-size: 18px;
@@ -403,3 +407,4 @@
     background-color: var(--smokey-black);
     font-size: 12px;
 }
+
