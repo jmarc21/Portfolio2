@@ -10,3 +10,6 @@
     background-color: var(--smokey-black);
     z-index: 2;
 }
+.projectsTitle{
+    color: var(--eggshell)
+}
