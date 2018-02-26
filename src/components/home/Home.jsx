@@ -204,15 +204,15 @@ export default class Home extends Component {
                                     I'm Justin, A Web Developer from Utah. <br />
                                     I pursued Web Development because I have a passion to engineer things, as well as technology and business. <br />
                                     I'm very excited for you to see what I can do.
-                            </p>
+                                </p>
+                                <div className="quote">
+                                    <p>" Big dreams don't cost anymore than little ones. "<br /> - Andy Frisella</p>
+                                </div>
                                 <div className='socialmedia'>
                                     <a href="https://github.com/jmarc21" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" className="social" /></a>
                                     <a href="https://www.linkedin.com/in/justindemarco21/" target="_blank" rel="noopener noreferrer"><img src="https://png.icons8.com/metro/1600/linkedin.png" alt="" className="social" /></a>
                                     <a href="https://www.instagram.com/justindemarco21/" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/2000px-Instagram_simple_icon.svg.png" alt="" className="social" /></a>
                                     <a href="https://twitter.com/JustinDeMarco21" target="_blank" rel="noopener noreferrer"><img src="https://image.flaticon.com/icons/png/512/8/8800.png" alt="" className="social" /></a>
-                                </div>
-                                <div className="quote">
-                                    <p>" Big dreams don't cost anymore than little ones. "<br /> - Andy Frisella</p>
                                 </div>
                             </div>
                             <div className="skillsContainer" id="skills">
@@ -269,8 +269,6 @@ export default class Home extends Component {
                                             <div className='iconname'>PostgresQL</div>
                                         </div>
                                     </div>
-                                    <div className="divider one"></div>
-                                    <h1 className="skillstitle">And More</h1>
                                 </div>
                             </div>
                             <br />

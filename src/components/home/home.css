@@ -314,7 +314,6 @@
 .quote{
     font-size: 20px;
     text-align: center;
-    margin-top: 150px;
     line-height: 1.5;
 }
 .contactinfo{
@@ -324,6 +323,7 @@
 .socialmedia{
     width: 150px;
     display: flex;
+    margin-top: 30px;
     flex-direction: row;
     justify-content: space-around;
     margin-left: auto;
