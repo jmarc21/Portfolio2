@@ -6,6 +6,7 @@ const express = require('express')
     , nodemailer = require('nodemailer');
 
 const app = express();
+app.use( express.static( `${__dirname}/../build` ) );
 app.use(cors());
 app.use(bodyParser.json())
 
@@ -36,6 +37,11 @@ app.post('/sendEmail', (req, res) => {
         }
     })
 })
+
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
+
 const { SERVER_PORT } = process.env
 app.listen(SERVER_PORT, () => {
     console.log(`I'm listening on port: ${SERVER_PORT}`)
