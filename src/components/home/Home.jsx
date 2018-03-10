@@ -23,6 +23,7 @@ export default class Home extends Component {
             projectmenu: true,
             skillsAnimaton: false,
             animateLoad: true,
+            Twitterdetails: true,
         }
     }
     componentDidMount() {
@@ -90,6 +91,16 @@ export default class Home extends Component {
     showTybldetailsOut() {
         this.setState({
             Tybldetails: true
+        })
+    }
+    showTwitterdetails(){
+        this.setState({
+            Twitterdetails: false
+        })
+    }
+    showTwitterdetailsOut(){
+        this.setState({
+            Twitterdetails: true
         })
     }
     scroll(id) {
@@ -312,9 +323,20 @@ export default class Home extends Component {
                                     </div>
                                 </div>
                                 <div className="project">
-                                    <h1 className='projectName'>Group Project</h1>
-                                    <img src={laptop} alt="" className="laptop" />
+                                <h1 className='projectName'>Tybl</h1>
+                                <img src={laptop} alt="" className="laptop" />
+                                <div onMouseOver={() => this.showTwitterdetails()} onMouseOut={() => this.showTwitterdetailsOut()}>
+                                    {this.state.Twitterdetails ?
+                                        <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
+                                            alt="Create-A-Playlist GIF" /> :
+                                        <Link to="/groupproject"><div>
+                                            <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
+                                                alt="Create-A-Playlist GIF" />
+                                            <div className="CAPdetails">Built with <br /> React, Redux, <br /> PostgresQL, and Twitter API.</div>
+                                        </div></Link>
+                                    }
                                 </div>
+                            </div>
                             </div>
                             <div id="contactme">
                                 <br />

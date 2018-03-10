@@ -407,4 +407,7 @@
     background-color: var(--smokey-black);
     font-size: 12px;
 }
-
+.gif{
+    width: 212px;
+    margin-left: 5px;
+}
