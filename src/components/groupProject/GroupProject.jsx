@@ -13,12 +13,20 @@ import stepfour from './stepFour.png';
 
 
 export default class Tybl extends Component {
-    componentDidMount() {
-        setTimeout(function () {
-            this.forceUpdate()
-        }.bind(this), 100);
-        window.scrollTo(0, 0)
+    constructor(){
+        super();
+    this.state = {
+        reloaded: 'no'
     }
+}
+componentDidMount() {
+    setTimeout(function () {
+        this.setState({
+            reloaded: 'yes'
+        })
+    }.bind(this), 100);
+    window.scrollTo(0, 0)
+}
     render() {
         return (
             <div className="tyblpage">

@@ -17,12 +17,15 @@ export default class Tybl extends Component {
             login: Login,
             feed: Feed,
             profile: Profile,
-            createatrip: Createatrip
+            createatrip: Createatrip,
+            reloaded: 'no'
         }
     }
     componentDidMount() {
         setTimeout(function () {
-            this.forceUpdate()
+            this.setState({
+                reloaded: 'yes'
+            })
         }.bind(this), 100);
         window.scrollTo(0, 0)
     }
@@ -59,10 +62,10 @@ export default class Tybl extends Component {
                             <li> Used AuthO to login and automatically create user profiles.  </li>
                         </ul>
                         <Carousel style={{ height: '300px', width: '600px' }} >
-                            <img src={this.state.login} />
-                            <img src={this.state.createatrip} />
-                            <img src={this.state.profile} />
-                            <img src={this.state.feed} />
+                            <img src={Login} />
+                            <img src={Createatrip} />
+                            <img src={Profile} />
+                            <img src={Feed} />
                         </Carousel>
                     </div>
                 </div>
