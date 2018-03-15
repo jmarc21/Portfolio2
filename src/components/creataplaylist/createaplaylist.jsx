@@ -35,7 +35,7 @@ export default class createaplaylist extends Component {
                             remove them from the playlist. <br />
                             <a href="https://github.com/jmarc21/PersonalProject1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" className="social" />  GitHub Repo</a>
                             <a href="https://youtu.be/Q9a9qBPKd_w" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink">  Video Tutorial</a>
-                            <a href="https://create-a-playlist.justin-demarco.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink">  Live Site</a>
+                            <a href="http://create-a-playlist.justin-demarco.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} className="gitHubLink">  Live Site</a>
                         </p>
                     </div>
                     <div className="CAPaboutContainer marginSpace">
