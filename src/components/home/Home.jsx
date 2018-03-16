@@ -93,12 +93,12 @@ export default class Home extends Component {
             Tybldetails: true
         })
     }
-    showTwitterdetails(){
+    showTwitterdetails() {
         this.setState({
             Twitterdetails: false
         })
     }
-    showTwitterdetailsOut(){
+    showTwitterdetailsOut() {
         this.setState({
             Twitterdetails: true
         })
@@ -113,7 +113,7 @@ export default class Home extends Component {
 
             scrollTo: function scrollTo(id, callback) {
                 var settings = {
-                    duration: 1500,
+                    duration: 1300,
                     easing: {
                         outQuint: function outQuint(t, b, c, d) {
                             return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
@@ -226,10 +226,8 @@ export default class Home extends Component {
                                     <a href="https://twitter.com/JustinDeMarco21" target="_blank" rel="noopener noreferrer"><img src="https://image.flaticon.com/icons/png/512/8/8800.png" alt="" className="social" /></a>
                                 </div>
                             </div>
-                            <div className="skillsContainer" id="skills">
-                                <br />
-                                <br />
-                                <div className={this.state.skillsAnimaton ? 'skills fadeup' : 'skills'} id="skills" >
+                            <div className="skillsContainer" id="skills" >
+                                {/* <div className={this.state.skillsAnimaton ? 'skills fadeup' : 'skills'}  > */}
                                     <h1 className='skillstitle'>Skills</h1>
                                     <div className="divider"></div>
                                     <div className='skill'>
@@ -253,8 +251,6 @@ export default class Home extends Component {
                                             <img src="https://tctechcrunch2011.files.wordpress.com/2012/09/html5_badge_512.png" alt="" className="icon" />
                                             <div className='iconname'>HTML5</div>
                                         </div>
-                                    </div>
-                                    <div className='skill two'>
                                         <div className="iconcontainer">
                                             <img src="https://www.shareicon.net/download/2015/09/08/97876_css_512x512.png" alt="" className="icon" />
                                             <div className='iconname'>CSS3</div>
@@ -280,7 +276,7 @@ export default class Home extends Component {
                                             <div className='iconname'>PostgresQL</div>
                                         </div>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </div>
                             <br />
                             <br />
@@ -323,25 +319,24 @@ export default class Home extends Component {
                                     </div>
                                 </div>
                                 <div className="project">
-                                <h1 className='projectName'>Tybl</h1>
-                                <img src={laptop} alt="" className="laptop" />
-                                <div onMouseOver={() => this.showTwitterdetails()} onMouseOut={() => this.showTwitterdetailsOut()}>
-                                    {this.state.Twitterdetails ?
-                                        <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
-                                            alt="Create-A-Playlist GIF" /> :
-                                        <Link to="/groupproject"><div>
+                                    <h1 className='projectName'>Twitter Book</h1>
+                                    <img src={laptop} alt="" className="laptop" />
+                                    <div onMouseOver={() => this.showTwitterdetails()} onMouseOut={() => this.showTwitterdetailsOut()}>
+                                        {this.state.Twitterdetails ?
                                             <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
-                                                alt="Create-A-Playlist GIF" />
-                                            <div className="CAPdetails">Built with <br /> React, Redux, <br /> PostgresQL, and Twitter API.</div>
-                                        </div></Link>
-                                    }
+                                                alt="Create-A-Playlist GIF" /> :
+                                            <Link to="/groupproject"><div>
+                                                <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
+                                                    alt="Create-A-Playlist GIF" />
+                                                <div className="CAPdetails">Built with <br /> React, Redux, <br /> PostgresQL, and Twitter API.</div>
+                                            </div></Link>
+                                        }
+                                    </div>
                                 </div>
                             </div>
-                            </div>
+                            <br />
                             <div id="contactme">
-                                <br />
-                                {/* <div className="phone">801-921-0823</div> */}
-                                <h1 className="contactmetitle" id="contactme">Contact Me</h1>
+                                <h1 className="contactmetitle">Contact Me</h1>
                                 <div className="divider"></div>
                                 <div className={this.state.thankyou ? 'thankyouslide slide' : 'thankyouslide'}>
                                     <h2>Message Sent</h2>
