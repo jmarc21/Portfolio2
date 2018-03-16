@@ -164,11 +164,14 @@
     font-size: 18px;
 }
 .skill{
-    width: 60%;
+    width: 50%;
+    height: 45vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 20%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 80px;
 }
 .skillsContainer{
@@ -225,6 +228,7 @@
 .jobtitle{
     font-size: 34px;
     margin-top: -40px;   
+    text-shadow: 2px 2px 2px black;
     font-family: 'EB Garamond', serif;
 }
 .skillstitle{
