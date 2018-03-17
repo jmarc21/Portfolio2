@@ -39,7 +39,7 @@ app.post('/sendEmail', (req, res) => {
 })
 
 app.get('*', (req, res)=>{
-    res.sendFile(path.join(__dirname, '../build/index.html'));
+    res.sendFile(path.join(__dirname, `${__dirname}/../build/index.html`));
 });
 
 const { SERVER_PORT } = process.env
