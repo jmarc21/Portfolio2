@@ -266,7 +266,6 @@ export default class Home extends Component {
                                         <div className='iconname'>PostgresQL</div>
                                     </div>
                                 </div>
-                                {/* </div> */}
                             </div>
                             <div className='aboutmecontainer' id="projects">
                                 <h1 className='projecttitle'>My Work</h1>

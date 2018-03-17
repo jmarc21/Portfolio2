@@ -40,8 +40,8 @@
     position: relative;
     height: 255px;
     width: 400px;
-    top: 5vh;
-    left: 4vw;
+    top: 30px;
+    left: 50px;
 }
 .videoWrapper{
    background-image: url('./laptop-web.png');
