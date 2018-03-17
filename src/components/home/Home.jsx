@@ -195,7 +195,6 @@ export default class Home extends Component {
                                     <div style={{ textDecoration: 'none', color: 'white', cursor: "pointer" }} onClick={() => this.scroll('home')} ><div>Home</div></div>
                                     <div style={{ textDecoration: 'none', color: 'white', cursor: "pointer" }} onClick={() => this.scroll('aboutme')}  ><div>About Me</div></div>
                                     <div style={{ textDecoration: 'none', color: 'white', cursor: "pointer" }} onClick={() => this.scroll('skills')}  ><div>Skills</div></div>
-                                    {/* <Link style={{ textDecoration: 'none', color: 'white', cursor: "pointer" }} to='/home'><img src={sig} /></Link> */}
                                     <div style={{ textDecoration: 'none', color: 'white', cursor: "pointer" }} onClick={() => this.scroll('projects')} ><div>My Work</div></div>
                                     <div style={{ textDecoration: 'none', color: 'white', cursor: "pointer" }} onClick={() => this.scroll('contactme')} ><div>Contact Me</div></div>
                                 </nav>
