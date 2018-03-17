@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './groupproject.css';
 import Header from '../header/header';
 import { DefaultPlayer as Video } from 'react-html5video';
-import vid from './twitter-book.mp4';
+import vid from './twitter-book-portfilio.mp4';
 import Carousel from 'nuka-carousel';
 import Login from './loginTwittterBook.png';
 import Feed from './homePage.png';
@@ -38,7 +38,7 @@ componentDidMount() {
                     </div>
                     <div className="CAPaboutContainer">
                         <div className="videoWrapper">
-                            <Video autoPlay loop muted controls={{ display: 'none' }} style={{ height: '250px', width: '381px', marginLeft: '9px'}}>
+                            <Video autoPlay loop muted controls={{ display: 'none' }}>
                                 <source src={vid} type="" />
                             </Video> 
                         </div>
