@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './tybl.css';
 import Header from '../header/header';
 import { DefaultPlayer as Video } from 'react-html5video';
-import vid from './tybl-vid.mp4';
+import vid from './tybl-vid-portfolio.mp4';
 import Carousel from 'nuka-carousel';
 import Login from './Login.png';
 import Feed from './Feed.png';
