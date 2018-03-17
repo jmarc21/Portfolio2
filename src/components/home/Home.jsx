@@ -306,10 +306,10 @@ export default class Home extends Component {
                                         <img src={laptop} alt="" className="laptop" />
                                         <div onMouseOver={() => this.showTwitterdetails()} onMouseOut={() => this.showTwitterdetailsOut()}>
                                             {this.state.Twitterdetails ?
-                                                <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
+                                                <img className="CAPvid gif" src="https://media.giphy.com/media/BpavGiu5yefI5QRSGz/giphy.gif"
                                                     alt="Create-A-Playlist GIF" /> :
                                                 <Link to="/groupproject"><div>
-                                                    <img className="CAPvid gif" src="https://media.giphy.com/media/E0JteKnrvy0NZy2cCV/giphy.gif"
+                                                    <img className="CAPvid gif" src="https://media.giphy.com/media/BpavGiu5yefI5QRSGz/giphy.gif"
                                                         alt="Create-A-Playlist GIF" />
                                                     <div className="CAPdetails">Built with <br /> React, Redux, <br /> PostgresQL, and Twitter API.</div>
                                                 </div></Link>
