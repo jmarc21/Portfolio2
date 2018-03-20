@@ -166,7 +166,7 @@
 }
 .skill{
     width: 800px;
-    height: 45vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -176,12 +176,13 @@
     margin-top: 80px;
 }
 .skillsContainer{
+    padding-top: 10vh;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .fadeup{
     animation-name: fadeup;
