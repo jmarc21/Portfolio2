@@ -246,7 +246,7 @@ export default class Home extends Component {
                                         <div className='iconname'>CSS3</div>
                                     </div>
                                     <div className="iconcontainer">
-                                        <img src="http://jamesdcarlson.com/images/api.svg" alt="" className="icon" />
+                                        <img src="https://www.saasu.com/images/rain-drop-hi.png" alt="" className="icon" />
                                         <div className='iconname'>RESTful</div>
                                     </div>
                                     <div className="iconcontainer">
@@ -258,11 +258,11 @@ export default class Home extends Component {
                                         <div className='iconname'>Express</div>
                                     </div>
                                     <div className="iconcontainer">
-                                        <img src="http://jamesdcarlson.com/images/git.svg" alt="" className="icon" />
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" className="icon" />
                                         <div className='iconname'>GitHub</div>
                                     </div>
                                     <div className="iconcontainer">
-                                        <img src="http://jamesdcarlson.com/images/postgresql.svg" alt="" className="icon" />
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png" alt="" className="icon" />
                                         <div className='iconname'>PostgresQL</div>
                                     </div>
                                 </div>
