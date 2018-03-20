@@ -3,14 +3,14 @@ import './createaplaylist.css'
 import iphone from './iphone.svg'
 import laptop from './laptop-web.png'
 import Header from '../header/header'
-import { DefaultPlayer as Video } from 'react-html5video'
-import vid from './portfolio-firstproject-vid.mp4'
+// import { DefaultPlayer as Video } from 'react-html5video'
+// import vid from './portfolio-firstproject-vid.mp4'
 import screenshot from './CAPscreenShot.png'
-import 'react-html5video/dist/styles.css'
+// import 'react-html5video/dist/styles.css'
 
 export default class createaplaylist extends Component {
     componentDidMount(){
-        window.scrollTo(0,0)
+        // window.scrollTo(0,0)
     }
     render() {
         return (
@@ -23,9 +23,9 @@ export default class createaplaylist extends Component {
                     </div>
                     <div className="CAPaboutContainer">
                         <div className="videoWrapper">
-                            <Video autoPlay loop muted controls={{ display: 'none' }}>
+                            {/* <Video autoPlay loop muted controls={{ display: 'none' }}>
                                 <source src={vid} type="" />
-                            </Video>
+                            </Video> */}
                         </div>
                         <p className="abouttext">
                             <div className='aboutProject'>About</div>
