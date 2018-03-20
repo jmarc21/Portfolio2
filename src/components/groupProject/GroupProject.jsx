@@ -20,12 +20,12 @@ export default class Tybl extends Component {
     }
 }
 componentDidMount() {
+    window.scrollTo(0, 0)
     setTimeout(function () {
         this.setState({
             reloaded: 'yes'
         })
     }.bind(this), 100);
-    window.scrollTo(0, 0)
 }
     render() {
         return (
