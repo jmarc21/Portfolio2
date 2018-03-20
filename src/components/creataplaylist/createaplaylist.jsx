@@ -4,7 +4,7 @@ import iphone from './iphone.svg'
 import laptop from './laptop-web.png'
 import Header from '../header/header'
 import { DefaultPlayer as Video } from 'react-html5video'
-import vid from './portfolio-firstproject-vid.mp4'
+import vid from './portfolio-firstproject-vid-new.mp4'
 import screenshot from './CAPscreenShot.png'
 import 'react-html5video/dist/styles.css'
 
