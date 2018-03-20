@@ -1,33 +1,33 @@
 import React, { Component } from 'react';
 import './tybl.css';
 import Header from '../header/header';
-// import { DefaultPlayer as Video } from 'react-html5video';
-// import vid from './tybl-vid-portfolio.mp4';
-// import Carousel from 'nuka-carousel';
-// import Login from './Login.png';
-// import Feed from './Feed.png';
-// import Profile from './Profile.png';
-// import Createatrip from './Createatrip.png';
+import { DefaultPlayer as Video } from 'react-html5video';
+import vid from './tybl-vid-portfolio.mp4';
+import Carousel from 'nuka-carousel';
+import Login from './Login.png';
+import Feed from './Feed.png';
+import Profile from './Profile.png';
+import Createatrip from './Createatrip.png';
 
 
 export default class Tybl extends Component {
     constructor() {
         super();
         this.state = {
-            // login: Login,
-            // feed: Feed,
-            // profile: Profile,
-            // createatrip: Createatrip,
+            login: Login,
+            feed: Feed,
+            profile: Profile,
+            createatrip: Createatrip,
             reloaded: 'no'
         }
     }
     componentDidMount() {
-        // window.scrollTo(0, 0)
-        // setTimeout(function () {
-        //     this.setState({
-        //         reloaded: 'yes'
-        //     })
-        // }.bind(this), 100);
+        window.scrollTo(0, 0)
+        setTimeout(function () {
+            this.setState({
+                reloaded: 'yes'
+            })
+        }.bind(this), 100);
     }
     render() {
         return (
@@ -40,9 +40,9 @@ export default class Tybl extends Component {
                     </div>
                     <div className="CAPaboutContainer">
                         <div className="videoWrapper">
-                            {/* <Video autoPlay loop muted controls={{ display: 'none' }}>
+                            <Video autoPlay loop muted controls={{ display: 'none' }}>
                                 {<source src={vid} type="" />}
-                            </Video> */}
+                            </Video>
                         </div>
                         <p className="abouttext">
                             <div className='aboutProject'>About</div>
@@ -61,12 +61,12 @@ export default class Tybl extends Component {
                             <li> Used Google Maps, Google Places, Google Place Details and Google Photos API to get information on hotels, attractions, transportation, restaurants, and shopping destinations. </li>
                             <li> Used AuthO to login and automatically create user profiles.  </li>
                         </ul>
-                        {/* <Carousel style={{ height: '300px', width: '600px' }} >
+                        <Carousel style={{ height: '300px', width: '600px' }} >
                             <img src={Login} />
                             <img src={Createatrip} />
                             <img src={Profile} />
                             <img src={Feed} />
-                        </Carousel> */}
+                        </Carousel>
                     </div>
                 </div>
             </div>

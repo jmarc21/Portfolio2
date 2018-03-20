@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './groupproject.css';
 import Header from '../header/header';
-// import { DefaultPlayer as Video } from 'react-html5video';
-// import vid from './twitter-book-portfilio.mp4';
-// import Carousel from 'nuka-carousel';
-// import Login from './loginTwittterBook.png';
-// import Feed from './homePage.png';
-// import Profile from './accountPage.png';
-// import stepone from './stepOne.png';
-// import stepthree from './stepThree.png';
-// import stepfour from './stepFour.png';
+import { DefaultPlayer as Video } from 'react-html5video';
+import vid from './twitter-book-portfilio.mp4';
+import Carousel from 'nuka-carousel';
+import Login from './loginTwittterBook.png';
+import Feed from './homePage.png';
+import Profile from './accountPage.png';
+import stepone from './stepOne.png';
+import stepthree from './stepThree.png';
+import stepfour from './stepFour.png';
 
 
 export default class Tybl extends Component {
@@ -20,12 +20,12 @@ export default class Tybl extends Component {
     }
 }
 componentDidMount() {
-    // setTimeout(function () {
-    //     this.setState({
-    //         reloaded: 'yes'
-    //     })
-    // }.bind(this), 100);
-    // window.scrollTo(0, 0)
+    setTimeout(function () {
+        this.setState({
+            reloaded: 'yes'
+        })
+    }.bind(this), 100);
+    window.scrollTo(0, 0)
 }
     render() {
         return (
@@ -38,9 +38,9 @@ componentDidMount() {
                     </div>
                     <div className="CAPaboutContainer">
                         <div className="videoWrapper">
-                            {/* <Video autoPlay loop muted controls={{ display: 'none' }}>
+                            <Video autoPlay loop muted controls={{ display: 'none' }}>
                                 <source src={vid} type="" />
-                            </Video>  */}
+                            </Video> 
                         </div>
                         <p className="abouttext">
                             <div className='aboutProject'>About</div>
@@ -59,14 +59,14 @@ componentDidMount() {
                             <li> Used the Twitter API to fetch tweets from the user or searched users.  Those tweets then can be added to a book for the user to purchase. </li>
                             <li> Practiced Test Driven Development using Jest and Endpoint testing using Postman. </li>
                         </ul>
-                        {/* <Carousel style={{ height: '300px', width: '600px' }} >
+                        <Carousel style={{ height: '300px', width: '600px' }} >
                             <img src={Login} />
                             <img src={Feed} />
                             <img src={Profile} />
                             <img src={stepone} />
                             <img src={stepthree} />
                             <img src={stepfour} />
-                        </Carousel> */}
+                        </Carousel>
                     </div>
                 </div>
             </div>
