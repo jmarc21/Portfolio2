@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './groupproject.css';
 import Header from '../header/header';
 import { DefaultPlayer as Video } from 'react-html5video';
-import vid from './twitter-book-portfilio.mp4';
+import vid from './twitter-book-portfilio-new.mp4';
 import Carousel from 'nuka-carousel';
 import Login from './loginTwittterBook.png';
 import Feed from './homePage.png';
